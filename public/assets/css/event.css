@@ -1,0 +1,119 @@
+.br8{
+    border-radius: 8px;
+    padding: 10px 0;
+    width: 244px;
+    font-weight: 500;
+}
+.detailcard{
+    width: min-content;
+    min-width: 80%;
+    background-color: #00262c;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+.posandhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%;
+    margin-top: 30px; */
+}
+.eventposters{
+    display: contents;
+}
+.eventposters img{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.infocard
+{
+    background: #daeaff;
+    color: black;
+    border-radius: 20px;
+    padding: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.infocard p{
+    opacity: 1;
+}
+.op1
+{
+    opacity: 1;
+}
+.regbttn{
+    align-items: center;
+}
+.regbttn h6{
+    margin-right: 20px;
+}
+.bttn{
+    user-select: none;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    cursor: pointer;
+}
+.fs-14{
+    font-size: 14px;
+}
+#eventrules li{
+    font-size: 14px;
+}
+.dowBtn{
+    cursor: pointer;
+    padding: 0 6px 0 15px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003c45;
+    color: white;
+    border-radius: 12px;
+    user-select: none;
+}
+.dowBtn i{
+    margin: 0 15px;
+}
+#downloadBtn{
+    display: none;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.dowBtn:hover{
+    background-color: #000000;
+}
+
+.prices{
+    margin: 0;
+}
+.priceDiv{
+    margin: 30px 0;
+    margin-top: 20px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.price1{
+    color: gold;
+}
+.price2{
+    color: silver;
+}
+#firstPrice p{
+    margin: 0;
+}
+#secondPrice p{
+    margin: 0;
+}
+.impMssg{
+    color: red;
+}
+.impMssgDiv{
+    text-align: center;
+}
+.mleft-10{
+    margin-left: 10px;
+}
