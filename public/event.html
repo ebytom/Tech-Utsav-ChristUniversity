@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Tech Utsav</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+    <link rel="stylesheet" href="assets/css/leadmark.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/event.css">
+    <!-- <link rel="stylesheet" href="assets/css/chevron.css"> -->
+    <link rel="stylesheet" href="assets/css/eventpagedpn.css">
+    <!-- <link href="assets/scss/slider/slider.scss" rel="stylesheet/scss" type="text/css"> -->
+    <link rel="shortcut icon" href="assets/imgs/foobar7.png" />
+    <script src="https://kit.fontawesome.com/9589c450f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top splbg" data-spy="affix"
+        data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/imgs/ascii.png" alt="ascii">
+                <!-- <h4>#FOOBAR</h4> -->
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="event.html?event=hackattack">Hack Attack</a></li>
+                            <li><a class="dropdown-item" href="event.html?event=uiux">UI / UX</a></li>
+                            <li><a class="dropdown-item" href="event.html?event=avmixify">AV Mixify</a></li>
+                            <li><a class="dropdown-item" href="event.html?event=cryptichunt">Cryptic Hunt</a></li>
+                            <li><a class="dropdown-item" href="event.html?event=kbgames">KB Games</a></li>
+                        
+                </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="index.html" class="ml-4 nav-link btn btn-primary btn-sm rounded">Home Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pl-md-5 posandhead">
+                    <div class="d-flex regbttn mb-5">
+                        <h6 class="section-title mb-0" id="eventname"></h6>
+                        <div id="regbtn" class="events__tag regbtn reggreen bttn">
+                            <a class="atagwhite">Join Whatsapp</a>
+                        </div>
+                    </div>
+                    <div class="eventposters">
+                        <img id="eventposter" src="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex flex-wrap priceDiv justify-content-center" id="removableDiv">
+                        <div class="mr-2 mt-2 mleft-10">
+                            <div class="ml-4 wsp btn btn-success btn-sm br8 splbg" id="firstPrice">
+                                <i class="fa-sharp fa-solid fa-trophy price1"></i>
+                                <b>First Prize</b>
+                                <p id="fpriceAmt">3000</p>
+                            </div>
+                        </div>
+                        <div class="mr-2 mt-2 mleft-10">
+                            <div class="ml-4 wsp btn btn-success btn-sm br8 splbg" id="secondPrice">
+                                <i class="fa-sharp fa-solid fa-trophy price2"></i>
+                                <b>Second Prize</b>
+                                <p id="spriceAmt">2000</p>
+                            </div>
+                        </div>
+                        <div class="mr-2 mt-2 mleft-10">
+                            <div class="ml-4 wsp btn btn-success btn-sm br8 splbg" id="secondPrice">
+                                <i class="fa-sharp fa-solid fa-trophy price2"></i>
+                                <b>Third Prize</b>
+                                <p id="spriceAmt">1000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="mr-2 mt-2 mleft-10">
+                            <div class="ml-4 wsp btn btn-success btn-sm br8 splbg" id="eventvenue"></div>
+                        </div>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="mr-2 mt-2 mleft-10">
+                                <div class="ml-4 wsp btn btn-success btn-sm br8 splbg" id="eventdate"></div>
+                            </div>
+                            <div class="mr-2 mt-2 mleft-10">
+                                <div class="ml-4 wsp btn btn-success btn-sm br8 splbg" id="eventtime"></div>
+                            </div>
+                            <div class="mr-2 mt-2 mleft-10">
+                                <div class="ml-4 wsp btn btn-success btn-sm br8 splbg" id="eventrounds"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                
+                <div class="col pr-md-5 mb-4 mb-md-0">
+                    
+                    <h6 class="section-subtitle mb-4" id="eventtagline"></h6>
+                    <p id="eventdesc" class="op1 taj"></p>
+                    
+                    <div class="impMssgDiv">
+                        <b id="blink" class="impMssg"></b>
+                    </div>
+                    <!-- <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm"> -->
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="contact" class="section has-img-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 my-3">
+                    <h6 class="mbspl">Whatsapp</h6>
+                    <div class="dflex">
+                        <i class="fa-brands fa-square-whatsapp"></i>
+                        <a class="contactlink" href="https://wa.me/7043498279">
+                            <p class="mb-0">+91 7043498279</p>
+                        </a>
+                    </div>
+                    <div class="dflex">
+                        <i class="fa-brands fa-square-whatsapp"></i>
+                        <a class="contactlink" href="https://wa.me/8547520864">
+                            <p class="mb-0">+91 8547520864</p>
+                        </a>
+                    </div>
+                    <h6 class="mbspl">Email</h6>
+                    <div class="dflex">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a class="contactlink" href="mailto:ascii.cufe@gmail.com?subject=Foobar-Query&body=Message">
+                            <p class="mb-0">ascii.cufe@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="dflex">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a class="contactlink"
+                            href="mailto:jaison.j@btech.christuniversity.in?subject=Foobar-Query&body=Message">
+                            <p class="mb-0">jaison.j@btech.christuniversity.in</p>
+                        </a>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="col-md-7">
+                    <form>
+                        <h4 class="mb-4">Drop us a Line</h4>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name"
+                                    placeholder="Name">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="email" class="form-control text-white rounded-0 bg-transparent"
+                                    name="Email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent"
+                                    name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="" cols="30" rows="4"
+                                    class="form-control text-white rounded-0 bg-transparent"
+                                    placeholder="Message"></textarea>
+
+                            </div>
+                            <div class="form-group col-12 mb-0">
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Page Footer -->
+            <footer class="mt-5 py-4 border-top border-secondary">
+                <!-- <p class="mb-0 small">&copy;
+                    <script>document.write(new Date().getFullYear())</script>, LeadMark Created By <a
+                        href="https://www.devcrud.com" target="_blank">DevCrud.</a> All rights reserved
+                </p> -->
+            </footer>
+            <!-- End of Page Footer -->
+        </div>
+    </section>
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="assets/js/leadmark.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/openDiv.js"></script>
+    <script src="assets/js/eventsdesc.js"></script>
+    <!-- <script src="assets/js/slider.js"></script> -->
+    <!-- <script src="assets/js/chevron.js"></script> -->
+    <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+            }
+            var $subMenu = $(this).next('.dropdown-menu');
+            $subMenu.toggleClass('show');
+
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass('show');
+            });
+
+
+            return false;
+        });
+    </script>
+    <script src="assets/js/firebase.js"></script>
+
+</body>
+
+</html>
