@@ -408,7 +408,7 @@ header {
 
 .regbtn {
 	width: 100px;
-	background-color: #ff6e42;
+	background-color: rgb(0, 187, 0) !important;
 	margin-bottom: 5px;
 	font-size: 12px;
 	user-select: none;
